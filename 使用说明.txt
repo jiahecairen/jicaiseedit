@@ -1,0 +1,20 @@
+在文件夹右键，选择Git Bash here
+
+#本地测试：
+hexo s
+然后
+http://localhost:4000/
+查看效果
+
+#新建文章：
+hexo new [文章标题]
+
+#部署
+hexo g
+
+#上传
+hexo d
+
+
+#一键部署上传
+hexo g -d
