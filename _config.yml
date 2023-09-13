@@ -113,5 +113,5 @@ theme: Chic
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:jiahecairen/jicaiseedit.git
+  repository: git@github.com:jiahecairen/jiahecairen.github.io.git
   branch: master
