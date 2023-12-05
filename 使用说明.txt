@@ -9,12 +9,49 @@ http://localhost:4000/
 #新建文章：
 hexo new [文章标题]
 
+#元数据：
+---
+title: #文章标题
+category: #文章归档
+tags: #标签集
+  - tag1
+  - tag2
+  - tag3...
+date: #日期
+---
+#演示：
+title: 这才叫辣子鸡！
+category: 馋嘴日记
+tags:
+  - 辣子鸡
+  - 川菜
+  - 菜谱
+date: 2020-04-21 15:43:15
+
+#添加图片
+![图片备注](/images/图片名.jpg)
+#演示：
+![loki硬币](/images/loki-1.jpg)
+即可将根目录下/images/文件夹内的图片在文中显示
+
+
+
 #部署
 hexo g
 
 #上传
 hexo d
 
-
 #一键部署上传
-hexo g -d
+hexo clean && hexo g && hexo d
+
+#部署报错则删除git提交内容文件夹
+rm -rf .deploy_git/
+git config --global core.autocrlf false
+nvm use 12 && hexo clean && hexo g && hexo d
+#再报错则重装
+npm install -g hexo-cli
+#或
+rm -rf node_modules && npm install --force
+
+

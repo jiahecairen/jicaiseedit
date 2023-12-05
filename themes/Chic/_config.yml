@@ -1,5 +1,5 @@
 # Header
-navname: 极彩色
+navname: LaySay
 
 # navigatior items
 nav:
@@ -12,10 +12,10 @@ nav:
 favicon: /favicon.ico
 
 # Profile
-nickname: 我是『初心者』盛雨<br>
+nickname: LaySay<br>
 
 ### this variable is MarkDown form.
-description: 多少事 从来急<br>天地转 光阴迫<br>極彩色 殛彩色<br>一万年太久 只争朝夕
+description: 姑妄言之姑听之</br>豆棚瓜架雨如丝</br>料因厌作人间语</br>爱听秋坟鬼唱诗
 avatar: /image/avatar.jpeg
 
 # main menu navigation
